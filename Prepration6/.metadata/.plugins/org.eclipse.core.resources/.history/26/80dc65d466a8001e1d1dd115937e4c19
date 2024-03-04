@@ -1,0 +1,22 @@
+package package1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Ecommerce {
+	
+	static WebDriver driver;
+	
+	static {
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver-win64\\chromedriver.exe");
+		driver =new ChromeDriver();
+	}
+
+  @Test(priority=1)
+  public void test1() {
+	  driver.get("https://www.saucedemo.com/");
+	  driver.manage().window().maximize();
+  }
+  
+}

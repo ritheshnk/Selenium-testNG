@@ -1,0 +1,19 @@
+package practice;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.DataProvider;
+
+public class dataProviderDemo {
+  
+	
+@Test(dataProvider)
+
+ @DataProvider(name="login")
+ public Object[][] getLoginData(){
+	 
+	 return new Object[][] {
+		 {"username","password"},
+		 {"username2","password2"}
+	 };
+ }
+}

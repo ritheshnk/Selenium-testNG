@@ -1,0 +1,9 @@
+package timeOutsParameterDemo;
+
+import org.testng.annotations.Test;
+
+public class timeOutDemo2 {
+  @Test
+  public void f() {
+  }
+}

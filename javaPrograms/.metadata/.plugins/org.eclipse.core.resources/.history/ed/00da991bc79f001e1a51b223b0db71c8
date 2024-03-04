@@ -1,0 +1,15 @@
+package p1;
+
+
+ interface Animal{
+	public void Sound();
+}
+public class interfaceIntro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

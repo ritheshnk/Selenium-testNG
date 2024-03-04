@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-21T19:07:37 IST" name="Default suite" finished-at="2023-12-21T19:07:42 IST" duration-ms="5187">
+    <groups>
+    </groups>
+    <test started-at="2023-12-21T19:07:37 IST" name="Default test" finished-at="2023-12-21T19:07:42 IST" duration-ms="5187">
+      <class name="p1.Shopping">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:p1.Shopping@2db2dd9d]" started-at="2023-12-21T19:07:37 IST" name="beforeClass" finished-at="2023-12-21T19:07:37 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1()[pri:1, instance:p1.Shopping@2db2dd9d]" started-at="2023-12-21T19:07:37 IST" name="test1" finished-at="2023-12-21T19:07:42 IST" duration-ms="5136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:p1.Shopping@2db2dd9d]" started-at="2023-12-21T19:07:42 IST" name="afterClass" finished-at="2023-12-21T19:07:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- p1.Shopping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

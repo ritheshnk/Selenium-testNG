@@ -1,0 +1,36 @@
+package p1;
+
+
+ abstract class Animal1{
+	 public abstract  void sound();
+	 public void attack() {
+		 System.out.println("attck");
+	 }
+	 
+	
+}
+ 
+  class Tiger extends Animal1{
+
+	public void sound() {
+		System.out.println("roar");
+	}
+	 
+ }
+  
+  class lion extends Animal1{
+	  public void sound() {
+		  System.out.println("lion rorar");
+	  }
+  }
+  
+  
+public class AbstractDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Tiger t=new Tiger();
+		t.sound();
+	}
+
+}

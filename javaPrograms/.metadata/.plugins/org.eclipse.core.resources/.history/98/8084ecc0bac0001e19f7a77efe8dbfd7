@@ -1,0 +1,21 @@
+package p1;
+
+public class Employee2 extends Person2{
+	String name;
+
+	@Override
+	public void getName() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class AbsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

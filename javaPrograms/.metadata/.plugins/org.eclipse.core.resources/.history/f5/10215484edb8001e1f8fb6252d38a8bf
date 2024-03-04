@@ -1,0 +1,17 @@
+package logics;
+
+public class rightFacedTriangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int row=5;
+		
+		for(int i=0;i<5;i++)
+		{
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-19T15:55:32 IST" name="Default suite" finished-at="2023-12-19T15:55:41 IST" duration-ms="9979">
+    <groups>
+    </groups>
+    <test started-at="2023-12-19T15:55:32 IST" name="Default test" finished-at="2023-12-19T15:55:41 IST" duration-ms="9979">
+      <class name="p5.CSVProject">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:p5.CSVProject@6892b3b6]" started-at="2023-12-19T15:55:32 IST" name="beforeMethod" finished-at="2023-12-19T15:55:34 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:p5.CSVProject@6892b3b6]" started-at="2023-12-19T15:55:34 IST" name="test1" finished-at="2023-12-19T15:55:41 IST" duration-ms="7705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:p5.CSVProject@6892b3b6]" started-at="2023-12-19T15:55:41 IST" name="afterMethod" finished-at="2023-12-19T15:55:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- p5.CSVProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

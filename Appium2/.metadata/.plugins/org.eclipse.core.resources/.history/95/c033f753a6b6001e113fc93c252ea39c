@@ -1,0 +1,13 @@
+package exam;
+
+import org.testng.annotations.Test;
+
+public class androidPresentation {
+	
+	public static String username="ritheshnk_9orU0g";
+	public static String accessKey="jWWkyVgQ7CVK9xsWd5AH";
+	public static String URL="";
+  @Test
+  public void f() {
+  }
+}

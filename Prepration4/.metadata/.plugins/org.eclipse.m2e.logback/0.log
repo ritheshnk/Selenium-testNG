@@ -1,0 +1,275 @@
+2023-12-26 09:53:49,958 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-26 09:54:23,959 [Worker-1: Creating project "Prep4"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Prep4:Prep4:0.0.1-SNAPSHOT @ C:\Users\E010302\eclipse-workspace\Prepration4\Prep4\pom.xml.
+2023-12-26 09:54:24,624 [Worker-1: Creating project "Prep4"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Prep4/src/main/java
+2023-12-26 09:54:24,626 [Worker-1: Creating project "Prep4"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Prep4/src/main/resources
+2023-12-26 09:54:24,631 [Worker-1: Creating project "Prep4"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Prep4/src/test/java
+2023-12-26 09:54:24,631 [Worker-1: Creating project "Prep4"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Prep4/src/test/resources
+2023-12-26 09:54:25,525 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:54:25,533 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 09:54:25,537 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:54:25,541 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 09:55:55,174 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Prep4:Prep4:0.0.1-SNAPSHOT @ C:\Users\E010302\eclipse-workspace\Prepration4\Prep4\pom.xml.
+2023-12-26 09:55:55,855 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:55:55,860 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 09:55:55,863 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:55:55,865 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 09:56:19,751 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Prep4:Prep4:0.0.1-SNAPSHOT @ C:\Users\E010302\eclipse-workspace\Prepration4\Prep4\pom.xml.
+2023-12-26 09:56:20,290 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.webjars.npm:through2:jar:0.6.3 is missing, no dependency information available
+2023-12-26 09:56:21,527 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:56:21,530 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 09:56:21,534 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:56:21,537 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 09:56:41,620 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Prep4:Prep4:0.0.1-SNAPSHOT @ C:\Users\E010302\eclipse-workspace\Prepration4\Prep4\pom.xml.
+2023-12-26 09:56:42,072 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.webjars.npm:through2:jar:0.6.3 is missing, no dependency information available
+2023-12-26 09:56:43,211 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:56:43,214 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 09:56:43,217 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:56:43,219 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 09:56:59,710 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Prep4:Prep4:0.0.1-SNAPSHOT @ C:\Users\E010302\eclipse-workspace\Prepration4\Prep4\pom.xml.
+2023-12-26 09:57:00,176 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.webjars.npm:through2:jar:0.6.3 is missing, no dependency information available
+2023-12-26 09:57:01,310 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:57:01,314 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 09:57:01,317 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:57:01,320 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 09:58:00,840 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:58:00,843 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 09:58:00,846 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:58:00,849 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 09:59:30,892 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:59:30,894 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 09:59:30,896 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 09:59:30,898 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:01:14,083 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:01:14,085 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:01:14,087 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:01:14,089 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:01:18,737 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:01:18,740 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:01:18,742 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:01:18,745 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:02:35,529 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:02:35,531 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:02:35,534 [Worker-1: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:02:35,536 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:03:35,162 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:03:35,165 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:03:35,167 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:03:35,169 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:04:57,245 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:04:57,247 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:04:57,251 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:04:57,253 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:05:45,043 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:05:45,045 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:05:45,046 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:05:45,049 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:29:28,506 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:29:28,509 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:29:28,511 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:29:28,513 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:41:08,599 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:41:08,601 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:41:08,603 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:41:08,605 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:52:03,737 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:52:03,740 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:52:03,742 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:52:03,745 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:53:59,310 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:53:59,313 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:53:59,314 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:53:59,317 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:54:26,208 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:54:26,212 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:54:26,214 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:54:26,217 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 10:56:05,943 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:56:05,945 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 10:56:05,947 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 10:56:05,949 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 11:03:20,799 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 11:03:20,801 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 11:03:20,803 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 11:03:20,805 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 11:04:07,041 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 11:04:07,043 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 11:04:07,046 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 11:04:07,048 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 11:07:45,294 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 11:07:45,297 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 11:07:45,298 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 11:07:45,301 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-26 16:10:36,584 [Worker-70: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 16:10:36,586 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-26 16:10:36,588 [Worker-70: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-26 16:10:36,590 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-27 09:18:06,410 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-12-27 11:35:51,241 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/jszip/maven-metadata.xml
+2023-12-27 11:35:51,257 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/jszip/maven-metadata.xml
+2023-12-27 11:35:51,299 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/lie/maven-metadata.xml
+2023-12-27 11:35:51,309 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/lie/maven-metadata.xml
+2023-12-27 11:35:51,363 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/immediate/maven-metadata.xml
+2023-12-27 11:35:51,373 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/immediate/maven-metadata.xml
+2023-12-27 11:35:51,428 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/inline-process-browser/maven-metadata.xml
+2023-12-27 11:35:51,437 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/inline-process-browser/maven-metadata.xml
+2023-12-27 11:35:51,486 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/falafel/maven-metadata.xml
+2023-12-27 11:35:51,495 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/falafel/maven-metadata.xml
+2023-12-27 11:35:51,537 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/acorn/maven-metadata.xml
+2023-12-27 11:35:51,548 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/acorn/maven-metadata.xml
+2023-12-27 11:35:51,593 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/foreach/maven-metadata.xml
+2023-12-27 11:35:51,608 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/foreach/maven-metadata.xml
+2023-12-27 11:35:51,668 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/object-keys/maven-metadata.xml
+2023-12-27 11:35:51,681 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/object-keys/maven-metadata.xml
+2023-12-27 11:35:51,760 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/through2/maven-metadata.xml
+2023-12-27 11:35:51,772 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/through2/maven-metadata.xml
+2023-12-27 11:35:51,814 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/readable-stream/maven-metadata.xml
+2023-12-27 11:35:51,823 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/readable-stream/maven-metadata.xml
+2023-12-27 11:35:51,861 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/core-util-is/maven-metadata.xml
+2023-12-27 11:35:51,875 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/core-util-is/maven-metadata.xml
+2023-12-27 11:35:51,926 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/string_decoder/maven-metadata.xml
+2023-12-27 11:35:51,937 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/string_decoder/maven-metadata.xml
+2023-12-27 11:35:51,979 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/inherits/maven-metadata.xml
+2023-12-27 11:35:51,991 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/inherits/maven-metadata.xml
+2023-12-27 11:35:52,053 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/xtend/maven-metadata.xml
+2023-12-27 11:35:52,063 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/xtend/maven-metadata.xml
+2023-12-27 11:35:52,114 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/unreachable-branch-transform/maven-metadata.xml
+2023-12-27 11:35:52,123 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/unreachable-branch-transform/maven-metadata.xml
+2023-12-27 11:35:52,165 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/esmangle-evaluator/maven-metadata.xml
+2023-12-27 11:35:52,179 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/esmangle-evaluator/maven-metadata.xml
+2023-12-27 11:35:52,222 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/recast/maven-metadata.xml
+2023-12-27 11:35:52,233 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/recast/maven-metadata.xml
+2023-12-27 11:35:52,286 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/esprima-fb/maven-metadata.xml
+2023-12-27 11:35:52,301 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/esprima-fb/maven-metadata.xml
+2023-12-27 11:35:52,351 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/source-map/maven-metadata.xml
+2023-12-27 11:35:52,362 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/source-map/maven-metadata.xml
+2023-12-27 11:35:52,414 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/amdefine/maven-metadata.xml
+2023-12-27 11:35:52,426 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/amdefine/maven-metadata.xml
+2023-12-27 11:35:52,493 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/private/maven-metadata.xml
+2023-12-27 11:35:52,512 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/private/maven-metadata.xml
+2023-12-27 11:35:52,590 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/ast-types/maven-metadata.xml
+2023-12-27 11:35:52,599 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/ast-types/maven-metadata.xml
+2023-12-27 11:35:53,002 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/through2/0.6.3/through2-0.6.3.pom
+2023-12-27 11:35:53,010 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.webjars.npm:through2:jar:0.6.3 is missing, no dependency information available
+2023-12-27 11:35:53,054 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/pako/maven-metadata.xml
+2023-12-27 11:35:53,064 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/pako/maven-metadata.xml
+2023-12-27 11:35:53,138 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/util-deprecate/maven-metadata.xml
+2023-12-27 11:35:53,148 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/util-deprecate/maven-metadata.xml
+2023-12-27 11:35:53,220 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/safe-buffer/maven-metadata.xml
+2023-12-27 11:35:53,233 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/safe-buffer/maven-metadata.xml
+2023-12-27 11:35:53,277 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/process-nextick-args/maven-metadata.xml
+2023-12-27 11:35:53,288 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/process-nextick-args/maven-metadata.xml
+2023-12-27 11:35:53,371 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/isarray/maven-metadata.xml
+2023-12-27 11:35:53,384 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/isarray/maven-metadata.xml
+2023-12-27 11:35:53,444 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/setimmediate/maven-metadata.xml
+2023-12-27 11:35:53,457 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/setimmediate/maven-metadata.xml
+2023-12-27 11:35:53,503 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/tmp/maven-metadata.xml
+2023-12-27 11:35:53,513 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/tmp/maven-metadata.xml
+2023-12-27 11:35:53,552 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/rimraf/maven-metadata.xml
+2023-12-27 11:35:53,563 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/rimraf/maven-metadata.xml
+2023-12-27 11:35:53,617 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/glob/maven-metadata.xml
+2023-12-27 11:35:53,626 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/glob/maven-metadata.xml
+2023-12-27 11:35:53,687 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/inflight/maven-metadata.xml
+2023-12-27 11:35:53,702 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/inflight/maven-metadata.xml
+2023-12-27 11:35:53,756 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/once/maven-metadata.xml
+2023-12-27 11:35:53,767 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/once/maven-metadata.xml
+2023-12-27 11:35:53,807 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/wrappy/maven-metadata.xml
+2023-12-27 11:35:53,818 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/wrappy/maven-metadata.xml
+2023-12-27 11:35:53,873 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/fs.realpath/maven-metadata.xml
+2023-12-27 11:35:53,886 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/fs.realpath/maven-metadata.xml
+2023-12-27 11:35:53,935 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/path-is-absolute/maven-metadata.xml
+2023-12-27 11:35:53,945 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/path-is-absolute/maven-metadata.xml
+2023-12-27 11:35:54,004 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/minimatch/maven-metadata.xml
+2023-12-27 11:35:54,017 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/minimatch/maven-metadata.xml
+2023-12-27 11:35:54,061 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/brace-expansion/maven-metadata.xml
+2023-12-27 11:35:54,073 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/brace-expansion/maven-metadata.xml
+2023-12-27 11:35:54,123 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/balanced-match/maven-metadata.xml
+2023-12-27 11:35:54,136 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/balanced-match/maven-metadata.xml
+2023-12-27 11:35:54,291 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/ws/maven-metadata.xml
+2023-12-27 11:35:54,301 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/ws/maven-metadata.xml
+2023-12-27 11:35:54,978 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-27 11:35:54,984 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-12-27 11:35:54,989 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-27 11:35:54,991 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2023-12-28 09:53:29,553 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-12-28 10:23:55,696 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/jszip/maven-metadata.xml
+2023-12-28 10:23:55,716 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/jszip/maven-metadata.xml
+2023-12-28 10:23:55,763 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/lie/maven-metadata.xml
+2023-12-28 10:23:55,779 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/lie/maven-metadata.xml
+2023-12-28 10:23:55,835 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/immediate/maven-metadata.xml
+2023-12-28 10:23:55,857 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/immediate/maven-metadata.xml
+2023-12-28 10:23:55,902 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/inline-process-browser/maven-metadata.xml
+2023-12-28 10:23:55,911 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/inline-process-browser/maven-metadata.xml
+2023-12-28 10:23:55,951 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/falafel/maven-metadata.xml
+2023-12-28 10:23:55,960 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/falafel/maven-metadata.xml
+2023-12-28 10:23:56,001 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/acorn/maven-metadata.xml
+2023-12-28 10:23:56,013 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/acorn/maven-metadata.xml
+2023-12-28 10:23:56,057 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/foreach/maven-metadata.xml
+2023-12-28 10:23:56,066 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/foreach/maven-metadata.xml
+2023-12-28 10:23:56,141 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/object-keys/maven-metadata.xml
+2023-12-28 10:23:56,152 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/object-keys/maven-metadata.xml
+2023-12-28 10:23:56,231 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/through2/maven-metadata.xml
+2023-12-28 10:23:56,242 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/through2/maven-metadata.xml
+2023-12-28 10:23:56,281 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/readable-stream/maven-metadata.xml
+2023-12-28 10:23:56,292 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/readable-stream/maven-metadata.xml
+2023-12-28 10:23:56,339 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/core-util-is/maven-metadata.xml
+2023-12-28 10:23:56,347 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/core-util-is/maven-metadata.xml
+2023-12-28 10:23:56,405 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/string_decoder/maven-metadata.xml
+2023-12-28 10:23:56,413 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/string_decoder/maven-metadata.xml
+2023-12-28 10:23:56,465 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/inherits/maven-metadata.xml
+2023-12-28 10:23:56,483 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/inherits/maven-metadata.xml
+2023-12-28 10:23:56,546 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/xtend/maven-metadata.xml
+2023-12-28 10:23:56,557 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/xtend/maven-metadata.xml
+2023-12-28 10:23:56,605 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/unreachable-branch-transform/maven-metadata.xml
+2023-12-28 10:23:56,615 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/unreachable-branch-transform/maven-metadata.xml
+2023-12-28 10:23:56,672 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/esmangle-evaluator/maven-metadata.xml
+2023-12-28 10:23:56,681 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/esmangle-evaluator/maven-metadata.xml
+2023-12-28 10:23:56,724 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/recast/maven-metadata.xml
+2023-12-28 10:23:56,737 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/recast/maven-metadata.xml
+2023-12-28 10:23:56,785 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/esprima-fb/maven-metadata.xml
+2023-12-28 10:23:56,798 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/esprima-fb/maven-metadata.xml
+2023-12-28 10:23:56,865 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/source-map/maven-metadata.xml
+2023-12-28 10:23:56,882 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/source-map/maven-metadata.xml
+2023-12-28 10:23:56,926 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/amdefine/maven-metadata.xml
+2023-12-28 10:23:56,940 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/amdefine/maven-metadata.xml
+2023-12-28 10:23:57,005 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/private/maven-metadata.xml
+2023-12-28 10:23:57,014 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/private/maven-metadata.xml
+2023-12-28 10:23:57,078 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/ast-types/maven-metadata.xml
+2023-12-28 10:23:57,089 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/ast-types/maven-metadata.xml
+2023-12-28 10:23:57,511 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/through2/0.6.3/through2-0.6.3.pom
+2023-12-28 10:23:57,518 [Worker-21: Launching PracticeTest4.test1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.webjars.npm:through2:jar:0.6.3 is missing, no dependency information available
+2023-12-28 10:23:57,574 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/pako/maven-metadata.xml
+2023-12-28 10:23:57,584 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/pako/maven-metadata.xml
+2023-12-28 10:23:57,677 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/util-deprecate/maven-metadata.xml
+2023-12-28 10:23:57,688 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/util-deprecate/maven-metadata.xml
+2023-12-28 10:23:57,732 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/safe-buffer/maven-metadata.xml
+2023-12-28 10:23:57,743 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/safe-buffer/maven-metadata.xml
+2023-12-28 10:23:57,794 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/process-nextick-args/maven-metadata.xml
+2023-12-28 10:23:57,805 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/process-nextick-args/maven-metadata.xml
+2023-12-28 10:23:57,877 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/isarray/maven-metadata.xml
+2023-12-28 10:23:57,889 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/isarray/maven-metadata.xml
+2023-12-28 10:23:57,947 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/setimmediate/maven-metadata.xml
+2023-12-28 10:23:57,957 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/setimmediate/maven-metadata.xml
+2023-12-28 10:23:58,009 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/tmp/maven-metadata.xml
+2023-12-28 10:23:58,018 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/tmp/maven-metadata.xml
+2023-12-28 10:23:58,087 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/rimraf/maven-metadata.xml
+2023-12-28 10:23:58,106 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/rimraf/maven-metadata.xml
+2023-12-28 10:23:58,152 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/glob/maven-metadata.xml
+2023-12-28 10:23:58,163 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/glob/maven-metadata.xml
+2023-12-28 10:23:58,205 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/inflight/maven-metadata.xml
+2023-12-28 10:23:58,219 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/inflight/maven-metadata.xml
+2023-12-28 10:23:58,263 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/once/maven-metadata.xml
+2023-12-28 10:23:58,275 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/once/maven-metadata.xml
+2023-12-28 10:23:58,325 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/wrappy/maven-metadata.xml
+2023-12-28 10:23:58,335 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/wrappy/maven-metadata.xml
+2023-12-28 10:23:58,401 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/fs.realpath/maven-metadata.xml
+2023-12-28 10:23:58,411 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/fs.realpath/maven-metadata.xml
+2023-12-28 10:23:58,463 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/path-is-absolute/maven-metadata.xml
+2023-12-28 10:23:58,475 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/path-is-absolute/maven-metadata.xml
+2023-12-28 10:23:58,524 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/minimatch/maven-metadata.xml
+2023-12-28 10:23:58,536 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/minimatch/maven-metadata.xml
+2023-12-28 10:23:58,578 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/brace-expansion/maven-metadata.xml
+2023-12-28 10:23:58,590 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/brace-expansion/maven-metadata.xml
+2023-12-28 10:23:58,631 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/balanced-match/maven-metadata.xml
+2023-12-28 10:23:58,645 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/balanced-match/maven-metadata.xml
+2023-12-28 10:23:58,776 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/npm/ws/maven-metadata.xml
+2023-12-28 10:23:58,795 [Worker-21: Launching PracticeTest4.test1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/npm/ws/maven-metadata.xml

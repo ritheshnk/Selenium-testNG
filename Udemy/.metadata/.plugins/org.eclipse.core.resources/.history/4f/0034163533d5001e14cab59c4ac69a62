@@ -1,0 +1,25 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="first suite">
+	<test name="test1">
+		<classes>
+			<class name="practice.IncognitoDemo">
+				<methods>
+					<include name="Incognito">
+					</include>
+				</methods>
+			</class>
+	</classes>
+</test>
+
+<test name="test2">
+	<classes>
+		<class name="practice.MultiWindow">
+			<methods>
+				<include name="multiWindow">
+				</include>
+			</methods>
+		</class>
+	</classes>
+</test>
+</suite>

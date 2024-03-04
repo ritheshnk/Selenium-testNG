@@ -1,0 +1,13 @@
+package p1;
+
+public class Synchronization {
+	int count=0;
+	public void syn
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

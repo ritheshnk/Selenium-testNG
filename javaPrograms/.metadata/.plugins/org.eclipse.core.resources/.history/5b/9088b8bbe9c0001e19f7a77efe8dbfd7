@@ -1,0 +1,8 @@
+package p1;
+
+public class HashCodeDemo {
+	public static void main(String[] args) {
+		HashMap<String,String> h=new 
+	}
+
+}

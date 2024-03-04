@@ -1,0 +1,25 @@
+package p1;
+
+public class StringPrint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb=new StringBuffer();
+		sb.append("Hello");
+		sb.append(" ");
+		sb.append("rithesh");
+		sb.append(" ");
+		sb.append("how");
+		sb.append(" ");
+		sb.append("are");
+		sb.append(" ");
+		sb.append("you?");
+		
+		System.out.println(sb);
+	
+		
+
+	}
+
+}

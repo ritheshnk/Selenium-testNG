@@ -1,0 +1,10 @@
+package practice;
+
+import org.testng.annotations.Test;
+
+public class WithoutSendKeys {
+
+  @Test
+  public void f() {
+  }
+}

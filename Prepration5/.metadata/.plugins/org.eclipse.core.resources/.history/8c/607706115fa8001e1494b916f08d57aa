@@ -1,0 +1,29 @@
+package p1;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+
+public class NewTest {
+	
+	static WebDriver driver;
+
+  @BeforeClass
+  public void beforeClass() {
+	  System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver-win64\\chromedriver.exe");
+	  driver=new ChromeDriver();
+  }
+
+  @Test
+  public void f() {
+	  driver.get("https://www.saucedemo.com/");
+  }
+  
+  
+  @AfterClass
+  public void afterClass() {
+  }
+
+}

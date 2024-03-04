@@ -1,0 +1,9 @@
+package parallel;
+
+import org.testng.annotations.Test;
+
+public class chrometest {
+  @Test
+  public void f() {
+  }
+}

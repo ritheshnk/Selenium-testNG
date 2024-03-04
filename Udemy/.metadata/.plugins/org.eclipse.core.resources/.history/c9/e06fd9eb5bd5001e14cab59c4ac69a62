@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="groupingDemo">
+	<groups>
+		<run>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+	<test name="groupDemo">
+		<classes>
+			<class name="groupings.NewTest" />
+			<class name="groupings.NewTest2" />
+			
+		</classes>
+	</test>
+	
+	<test name="groupDemo2">
+	<groups>
+		<run>
+			<include name="regression" />
+		</run>
+	</groups>
+		<classes>
+			<class name="groupings.NewTest" />
+			<class name="groupings.NewTest2" />
+			
+		</classes>
+	</test>
+	
+	
+</suite>
+
+<suite name="groupingDemo2">
+	<test name="groupDemo2">
+	<groups>
+		<run>
+			<include name="regression" />
+		</run>
+	</groups>
+		<classes>
+			<class name="groupings.NewTest" />
+			<class name="groupings.NewTest2" />
+			
+		</classes>
+	</test>
+</suite>

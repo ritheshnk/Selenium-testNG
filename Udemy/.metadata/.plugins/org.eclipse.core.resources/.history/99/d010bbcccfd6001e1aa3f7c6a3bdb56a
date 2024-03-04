@@ -1,0 +1,38 @@
+package CSV;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
+
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvException;
+
+public class readingCSVDemo {
+	static WebDriver driver;
+	static {
+		ChromeOptions option=new ChromeOptions();
+		option.addArguments("--disbale-popup-blocking");
+		option.addArguments("start-maximized");
+		driver=new ChromeDriver(option);
+	}
+  @Test
+  public void opneUrl() {
+	  driver.get("https://www.saucedemo.com/");
+  }
+  
+  @Test
+  public void openCSV() throws Exception {
+	  CSVReader read=new CSVReader(new FileReader("C:\\Selenium\\practice.csv"));
+	  
+	  List<String[]> reader=read.readAll();
+	  
+	  for(String[] s:reader) {
+		  System.out.println(s[]);
+	  }
+  }
+}

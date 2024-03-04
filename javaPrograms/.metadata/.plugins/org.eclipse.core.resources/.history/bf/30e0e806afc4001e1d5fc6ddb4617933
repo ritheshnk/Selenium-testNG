@@ -1,0 +1,17 @@
+package p1;
+
+class ParentSuper{
+	int num1;
+	
+	int num2;
+}
+
+
+public class Supper {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

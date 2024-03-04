@@ -1,0 +1,15 @@
+package p1;
+
+import java.util.HashMap;
+
+public class HashCodeDemo {
+	public static void main(String[] args) {
+		HashMap<String,String> h=new HashMap<String,String>();
+		h.put("toyota", "supra");
+		h.put("BMW", "m3");
+		h.put("Audi","r8");
+		h.put("nissan", "gtr");
+		
+	}
+
+}

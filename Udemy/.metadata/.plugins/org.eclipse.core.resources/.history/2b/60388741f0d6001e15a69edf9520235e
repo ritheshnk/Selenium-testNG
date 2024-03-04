@@ -1,0 +1,23 @@
+package dataProviderDemo;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class dataProviderPRactice {
+  @Test(dataProvider="loginParallel")
+  public void parallel() 
+  {
+  }
+  
+  
+  @DataProvider(name="loginParallel")
+  public Object[][] details(){
+	  Object[][] data= {
+			  {"standard_user","secret_sauce"},
+			  {"locked_out_user","secret_sauce"},
+			  {"problem_user","secret_sauce"}
+	  };
+	  
+	  return data;
+  }
+}

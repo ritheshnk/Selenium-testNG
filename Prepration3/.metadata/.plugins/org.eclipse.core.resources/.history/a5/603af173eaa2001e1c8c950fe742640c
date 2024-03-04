@@ -1,0 +1,52 @@
+package p1;
+
+import org.testng.annotations.Test;
+
+import com.opencsv.CSVReader;
+
+import org.testng.annotations.BeforeClass;
+
+import java.io.FileReader;
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+
+public class NewTest {
+	
+	static WebDriver driver;
+	
+	static {
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver-win64\\chromedriver.exe");
+		 driver=new ChromeDriver();
+	}
+
+  @BeforeClass
+  public void beforeClass() {
+	  
+  }
+  
+  
+  
+  @Test(priority=1)
+  public void test1() {
+	  driver.get("https://www.saucedemo.com/");
+	  driver.manage().window().maximize();
+	  
+  }
+  
+  @Test(priority=2)
+  
+  public void test2() throws Exception {
+	  CSVReader reader=new CSVReader(new FileReader("C:\\Selenium\\practice.csv"));
+	  List<String[]> s=reader.readAll();
+  }
+  
+  
+
+  @AfterClass
+  public void afterClass() {
+  }
+
+}

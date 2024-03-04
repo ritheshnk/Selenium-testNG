@@ -1,0 +1,9 @@
+package Listners;
+
+import org.testng.annotations.Test;
+
+public class ITestListenersDemo implements ITest {
+  @Test
+  public void f() {
+  }
+}

@@ -1,0 +1,28 @@
+package p1;
+
+
+ interface Animal{
+	public void Sound();
+}
+ 
+ class Tiger implements Animal{
+	 public void Sound() {
+		 System.out.println("Tiger roar ");
+	 }
+ }
+ 
+ class Lion implements Animal{
+	 public void Sound() {
+		 System.out.println("Lion roar ");
+		 
+	 }
+ }
+public class interfaceIntro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

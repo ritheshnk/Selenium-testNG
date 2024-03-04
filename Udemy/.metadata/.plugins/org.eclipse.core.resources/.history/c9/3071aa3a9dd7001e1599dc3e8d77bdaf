@@ -1,0 +1,37 @@
+package timeOutsParameterDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
+
+public class timeOutDemo {
+	static WebDriver driver;
+	static {
+		
+		driver=new GeckoDriver();
+	}
+  @Test(timeOut = 1400)
+  public void test1() {
+	  driver.get("https://www.saucedemo.com");
+	  driver.findElement(By.id("user-name")).sendKeys("standard_user");
+	  driver.findElement(By.id("password")).sendKeys("secret_sauce");
+	  driver.findElement(By.id("login-button")).click();
+	  driver.quit();
+  }
+  
+  //this will fail cause test takes minimum 1400 sec 
+  //if u give 1300 it will fails saying timeout
+ /*
+  @Test(timeOut = 1300)
+  public void test1() {
+	  driver.get("https://www.saucedemo.com");
+	  driver.findElement(By.id("user-name")).sendKeys("standard_user");
+	  driver.findElement(By.id("password")).sendKeys("secret_sauce");
+	  driver.findElement(By.id("login-button")).click();
+	  driver.quit();
+  }
+  
+  */
+}

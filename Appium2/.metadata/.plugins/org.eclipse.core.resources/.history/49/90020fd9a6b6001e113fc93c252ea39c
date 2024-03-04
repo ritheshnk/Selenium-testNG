@@ -1,0 +1,22 @@
+package exam;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class androidPresentation {
+	
+	public static String username="ritheshnk_9orU0g";
+	public static String accessKey="jWWkyVgQ7CVK9xsWd5AH";
+	public static String URL="http://ritheshnk_IHZnK2:wWpV5hpsvr9TyNNpXyfS@hub-cloud.browserstack.com/wd/hub";
+	
+	AndroidDriver<AndroidElement> driver;
+  @Test
+  public void Test1() {
+	  DesiredCapabilities cap = new DesiredCapabilities();
+	  
+	  cap
+  }
+}

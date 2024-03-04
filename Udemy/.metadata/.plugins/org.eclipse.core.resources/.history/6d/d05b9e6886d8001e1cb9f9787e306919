@@ -1,0 +1,10 @@
+package takeScreenShot;
+
+import org.testng.annotations.Test;
+
+public class screenShotDemo2 {
+	WebDriver driver;
+  @Test
+  public void f() {
+  }
+}

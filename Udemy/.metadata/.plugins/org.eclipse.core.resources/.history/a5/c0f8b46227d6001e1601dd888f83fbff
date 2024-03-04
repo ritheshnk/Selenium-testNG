@@ -1,0 +1,47 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class dataProviderDemo3 {
+  @Test(dataProvider="listDemo1")
+  public void demo(String s) {
+	  System.out.println(s);
+	  
+  }
+  
+  @Test(dataProvider="setDemo")
+  public void demo2(String s) {
+	  System.out.println(s);
+	  
+  }
+  
+  
+  
+  
+  @DataProvider(name="listDemo1")
+  public Iterator<String> listdemo() {
+	  List<String> s=new ArrayList<String>();
+	  s.add("narayan");
+	  s.add("rithu");
+	  
+	  return  s.iterator();
+	  
+  }
+  
+  @DataProvider(name="setDemo")
+  public Iterat<String> setdemo() {
+	  Set<String> s=new HashSet<String>();
+	  s.add("roman");
+	  s.add("seth");
+	  s.add("dean");
+	  
+	  return s.iterator();
+  }
+}

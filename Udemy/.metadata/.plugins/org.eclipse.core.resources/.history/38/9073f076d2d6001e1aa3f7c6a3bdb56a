@@ -1,0 +1,48 @@
+package CSV;
+
+import java.io.FileReader;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
+
+import com.opencsv.CSVReader;
+
+public class readingCSVDemo {
+	static WebDriver driver;
+	static {
+		ChromeOptions option=new ChromeOptions();
+		option.addArguments("--disbale-popup-blocking");
+		option.addArguments("start-maximized");
+		driver=new ChromeDriver(option);
+	}
+  @Test
+  public void opneUrl() {
+	  driver.get("https://www.saucedemo.com");
+  }
+  
+  @Test
+  public void openCSV() throws Exception {
+	  CSVReader read=new CSVReader(new FileReader("C:\\Selenium\\practice.csv"));
+	  
+	  List<String[]> reader=read.readAll();
+	  
+	  for(String[] s:reader) {
+		 String username=s[0];
+		 String password=s[1];
+		 
+		 WebElement usernameFeild=driver.findElement(By.xpath("//*[@id=\"user-name\"]"));
+		  usernameFeild.clear();
+		  usernameFeild.sendKeys(username);
+		  
+		  Thread.sleep(1500);
+		  WebElement passwordFeild=driver.findElement(By.xpath("//*[@id=\"password\"]"));
+		  passwordFeild.clear();
+		  passwordFeild.sendKeys(password);
+	  }
+  }
+}

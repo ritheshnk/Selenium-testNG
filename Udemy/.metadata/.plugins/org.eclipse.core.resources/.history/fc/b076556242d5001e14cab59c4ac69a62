@@ -1,0 +1,37 @@
+package practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class loginFormUSingTwoParameters {
+	WebDriver driver;
+	
+	//passing single value
+	@Parameters("browserName")
+	@BeforeTest
+	public void setup(String value) {
+		switch(value)
+		{
+		case "chrome":ChromeOptions option=new ChromeOptions();
+						option.addArguments("--disable-popup-blocking");
+						driver=new ChromeDriver(option);
+		default:System.err.println("only chrome is allowed");
+		}
+		
+	}
+
+	//passing double value
+@Parameters({})
+  @Test
+  public void login() {
+	  driver.get("https://www.saucedemo.com/");
+	  driver.findElement(By.id("user-name")).sendKeys();
+	  driver.findElement(By.id("password")).sendKeys();
+	  driver.findElement(By.xpath("//input[@id='login-button']")).click();
+  }
+}

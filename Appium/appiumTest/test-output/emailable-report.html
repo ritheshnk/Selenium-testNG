@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,691</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">practice.IosTestChrome</td><td><a href="#m0">f</a></td><td rowspan="1">1704785417416</td><td rowspan="1">20554</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">practice.IosTestChrome#f</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Appium error: An unknown server-side error occurred while processing the command. Original error: Url or Uri must start with &lt;scheme&gt;:// (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;LP000555&apos;, ip: &apos;10.99.105.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{browserstack.is_hub_canary=false, webkitResponseTimeout=20000, noReset=true, bundleID=com.browserstack.SampleLocalApp, uiautomator2ServerLaunchTimeout=60000, deviceName=iPhone 15, platform=MAC, acceptSslCerts=false, detected_language=Apache-HttpClient/4.5.3 (Java/17.0.9), newCommandTimeout=0, webStorageEnabled=false, acceptSslCert=false, automationName=XCUITest, browserName=, takesScreenshot=true, wdaStartupRetries=3, javascriptEnabled=true, udid=00008120-000A2D420AD2201E, platformName=MAC, 64bit=false, networkConnectionEnabled=false, orientation=PORTRAIT, buildName=Second build, capabilities={browserstack.is_hub_canary=false, webkitResponseTimeout=20000, noReset=true, bundleID=com.browserstack.SampleLocalApp, uiautomator2ServerLaunchTimeout=60000, deviceName=iPhone 15, platform=MAC, acceptSslCerts=false, detected_language=Apache-HttpClient/4.5.3 (Java/17.0.9), newCommandTimeout=0, webStorageEnabled=false, acceptSslCert=false, automationName=XCUITest, browserName=, takesScreenshot=true, wdaStartupRetries=3, javascriptEnabled=true, udid=00008120-000A2D420AD2201E, platformName=iOS, 64bit=false, networkConnectionEnabled=false, orientation=PORTRAIT, buildName=Second build, browserstack.minOSVersion=12.0, sessionName=ios sample testing, browserstack.appium_version=1.21.0, bundleId=com.browserstack.SampleLocalApp, mobile={browser=mobile, version=iPhone 15-17.1}, biometricUserOptionAccessible=false, sessionId=8d269a18c33420862dc42d3b84d1d34a512bade2, databaseEnabled=false, new_bucketing=true, version=, waitForQuiescence=false, bootstrapPath=/usr/local/.browserstack/config/wda_derived_data_00008120-000A2D420AD2201E/Build/Products, browserstack.isTargetBased=false, useXctestrunFile=true, safariIgnoreFraudWarning=true, orig_os=ios, realMobile=true, locationContextEnabled=false, deviceOrientation=PORTRAIT, projectName=Second project, wda_port=8401, device=iphone, custom_replay_kit_params={&quot;rotation&quot;:&quot;false&quot;,&quot;captureWidth&quot;:&quot;380&quot;,&quot;captureHeight&quot;:&quot;824&quot;,&quot;bitRate&quot;:&quot;600000&quot;}, safariInitialUrl=http://mobile-internet-check.browserstack.com}, browserstack.minOSVersion=12.0, sessionName=ios sample testing, browserstack.appium_version=1.21.0, bundleId=com.browserstack.SampleLocalApp, mobile={browser=mobile, version=iPhone 15-17.1}, biometricUserOptionAccessible=false, sessionId=8d269a18c33420862dc42d3b84d1d34a512bade2, databaseEnabled=false, new_bucketing=true, version=, waitForQuiescence=false, bootstrapPath=/usr/local/.browserstack/config/wda_derived_data_00008120-000A2D420AD2201E/Build/Products, browserstack.isTargetBased=false, useXctestrunFile=true, safariIgnoreFraudWarning=true, orig_os=ios, realMobile=true, locationContextEnabled=false, deviceOrientation=PORTRAIT, projectName=Second project, wda_port=8401, device=iphone, custom_replay_kit_params={&quot;rotation&quot;:&quot;false&quot;,&quot;captureWidth&quot;:&quot;380&quot;,&quot;captureHeight&quot;:&quot;824&quot;,&quot;bitRate&quot;:&quot;600000&quot;}, safariInitialUrl=http://mobile-internet-check.browserstack.com}]
+Session ID: 8d269a18c33420862dc42d3b84d1d34a512bade2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)
+	at practice.IosTestChrome.f(IosTestChrome.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

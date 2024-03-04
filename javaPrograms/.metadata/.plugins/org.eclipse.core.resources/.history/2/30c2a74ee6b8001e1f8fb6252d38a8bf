@@ -1,0 +1,13 @@
+package logics;
+
+import java.util.*;
+public class leftFacedPyramid {
+
+	public static void main(String[] args) {
+		System.out.println("enter the number of rows ");
+		Scanner sc=new Scanner(System.in);
+		int n=
+
+	}
+
+}

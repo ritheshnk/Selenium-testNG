@@ -1,0 +1,13 @@
+package p1;
+
+public abstract class Employee2 extends Person2{
+	String name;
+	
+	Employee2(String name){
+		this.name=name;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+}

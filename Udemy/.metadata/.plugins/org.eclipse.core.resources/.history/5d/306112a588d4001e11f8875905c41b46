@@ -1,0 +1,34 @@
+package practice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.Test;
+
+public class findByDemo {
+	static WebDriver driver;
+	
+	@FindBy(id="user-name")
+	public WebElement username;
+	
+	@FindBy(id="password")
+	public W
+	
+	static {
+		ChromeOptions option=new ChromeOptions();
+		option.addArguments("--disable-popup-blocking");
+		driver=new ChromeDriver(option);
+		
+	}
+  @Test
+  public void f() {
+	  driver.get("https://www.saucedemo.com/");
+	  username.sendKeys("standard_user")
+	  
+  }
+  
+  
+  
+}

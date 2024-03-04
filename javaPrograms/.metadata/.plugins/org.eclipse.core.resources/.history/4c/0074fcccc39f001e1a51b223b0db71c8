@@ -1,0 +1,8 @@
+package p1;
+
+public interface IntroInterface {
+	public void takeoff();
+	public void land();
+	public void cruse();
+
+}

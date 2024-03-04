@@ -1,0 +1,30 @@
+package dataProviderDemo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class dataProviderPRactice {
+	static WebDriver driver;
+	static {
+		driver=new ChromeDriver();
+	}
+  @Test(dataProvider="loginParallel")
+  public void parallel() {
+	  driver.get("https://www.saucedemo.com");
+
+  }
+  
+  
+  @DataProvider(name="loginParallel")
+  public Object[][] details(){
+	  Object[][] data= {
+			  {"standard_user","secret_sauce"},
+			  {"locked_out_user","secret_sauce"},
+			  {"problem_user","secret_sauce"}
+	  };
+	  
+	  return data;
+  }
+}

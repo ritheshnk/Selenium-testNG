@@ -1,0 +1,80 @@
+package mobileTesting;
+
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class androidAppTest {
+	
+	//bs://5098b8ebfb64ec96855332b1f73cf4c8d81621c9
+	
+	String username="ritheshnk_9orU0g";
+	String accessKey="jWWkyVgQ7CVK9xsWd5AH";
+	String URL="http://ritheshnk_IHZnK2:wWpV5hpsvr9TyNNpXyfS@hub-cloud.browserstack.com/wd/hub";
+	
+	AndroidDriver<AndroidElement> driver;
+  @Test
+  public void androidTest1() {
+	  
+	  try {
+	  DesiredCapabilities cap = new DesiredCapabilities();
+	  cap.setCapability("deviceName", "Samsung Galaxy S22 Ultra");
+	  cap.setCapability("os_version", "12");
+	  cap.setCapability("project", "android project");
+	  cap.setCapability("build", "android build");
+	  cap.setCapability("app", "bs://5cd7a103aba9a27477480af6d606bc90094bb22d");
+	  
+	  driver=new AndroidDriver<AndroidElement>(new URL(URL),cap);
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  
+	  
+	  //38f479db-ed48-45c2-bf8d-b1933a5673f7
+	  
+	driver.findElement(By.id("org.wikipedia.alpha:id/view_featured_article_card_image")).click();
+	Thread.sleep(2000);
+	driver.findElement(By.id("org.wikipedia.alpha:id/view_wiki_error_button")).click();
+	
+	  }catch(Exception e) {
+		  e.printStackTrace();
+	  }finally {
+		 /* 
+		  if(driver != null) {
+			  driver.quit();
+		  } */
+	  }
+  }
+  
+  @Test(priority=2)
+  public void androidTest2() {
+	  try {
+		  //driver.findElement(By.cssSelector("//android.widget.LinearLayout[id='93ff2800-d2ef-40a5-99b2-427f1b71f16e']"));
+		  //driver.findElement(By.className("android.widget.LinearLayout")).click();
+		  
+		  //unable to find the element using ElementID
+		  
+		  //  //android.widget.TextView[@text='Bernardo Arévalo is inaugurated as President of Guatemala after multiple attempts to obstruct the event.']
+		 // driver.findElement(By.id("00000000-0000-0944-ffff-ffff00000049")).click();
+		  
+		  
+		  //  //tagname[@text='']  custom xpath
+		  
+		  
+		 
+		  driver.findElement(By.xpath("//android.widget.TextView[@text='Bernardo Arévalo is inaugurated as President of Guatemala after multiple attempts to obstruct the event.']")).click();
+		  Thread.sleep(2000);
+		  driver.findElement(By.xpath("//android.widget.ImageButton[@content-desc=\"Navigate up\"]")).click();
+	      //android.widget.TextView 
+		  // Queen Margrethe II abdicates and is succeeded by Frederik X as King of Denmark.
+	  }catch(Exception e) {
+		  e.printStackTrace();
+	  }
+  }
+  
+  @Test(priority)
+}
