@@ -51,6 +51,10 @@ public class readExcel {
 						XSSFCell cell=row.getCell(j);
 						System.out.println(cell);
 						data[i][j]=row.getCell(j).toString();
+
+						/*
+      example hwo it will be stored is {{a,b},{c,d}}
+      */
 					}
 				}
 				input.close();
