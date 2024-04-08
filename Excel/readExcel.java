@@ -48,6 +48,7 @@ public class readExcel {
 					XSSFRow row=sheet.getRow(i+1);
 					for(int j=0;j<colCount;j++)
 					{
+						//just to verfy ur  using xssfcell to check if its right  value
 						XSSFCell cell=row.getCell(j);
 						System.out.println(cell);
 						data[i][j]=row.getCell(j).toString();
